@@ -1,0 +1,11 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1"
+
+[[bin]]
+name = "main"  # Replace with your project's name
+path = "main.rs"  # Path to your main.rs file
